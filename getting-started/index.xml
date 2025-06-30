@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Getting Started on TMEIC体系文件</title><link>localhost:1313getting-started/</link><description>Recent content in Getting Started on TMEIC体系文件</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 26 Oct 2019 15:26:15 +0000</lastBuildDate><atom:link href="localhost:1313getting-started/index.xml" rel="self" type="application/rss+xml"/><item><title>Installation</title><link>localhost:1313getting-started/installation/</link><pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate><guid>localhost:1313getting-started/installation/</guid><description>&lt;h2 id="install-hugo-theme-on-your-project">Install Hugo theme on your project&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Getting Started on TMEIC体系文件</title><link>https://joe0917.github.io/test/getting-started/</link><description>Recent content in Getting Started on TMEIC体系文件</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 26 Oct 2019 15:26:15 +0000</lastBuildDate><atom:link href="https://joe0917.github.io/test/getting-started/index.xml" rel="self" type="application/rss+xml"/><item><title>Installation</title><link>https://joe0917.github.io/test/getting-started/installation/</link><pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate><guid>https://joe0917.github.io/test/getting-started/installation/</guid><description>&lt;h2 id="install-hugo-theme-on-your-project">Install Hugo theme on your project&lt;/h2>
 &lt;p>If you have git installed, you can include hugo-theme-techdoc repository into your core repository as submodule using &lt;code>git submodule&lt;/code> within your project directory.&lt;/p>
 &lt;pre tabindex="0">&lt;code>cd your_project
 git submodule add https://github.com/thingsym/hugo-theme-techdoc.git themes/hugo-theme-techdoc
@@ -8,7 +8,7 @@ git submodule add https://github.com/thingsym/hugo-theme-techdoc.git themes/hugo
 &lt;pre tabindex="0">&lt;code>cd your_project/themes
 git clone https://github.com/thingsym/hugo-theme-techdoc.git
 &lt;/code>&lt;/pre>&lt;h2 id="configure">Configure&lt;/h2>
-&lt;p>You may specify options in hugo.toml (or hugo.yaml/hugo.json) of your site to make use of this theme&amp;rsquo;s features.&lt;/p></description></item><item><title>Configuration</title><link>localhost:1313getting-started/configuration/</link><pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate><guid>localhost:1313getting-started/configuration/</guid><description>&lt;p>You may specify options in hugo.toml (or hugo.yaml/hugo.json) of your site to make use of this theme’s features.&lt;/p>
+&lt;p>You may specify options in hugo.toml (or hugo.yaml/hugo.json) of your site to make use of this theme&amp;rsquo;s features.&lt;/p></description></item><item><title>Configuration</title><link>https://joe0917.github.io/test/getting-started/configuration/</link><pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate><guid>https://joe0917.github.io/test/getting-started/configuration/</guid><description>&lt;p>You may specify options in hugo.toml (or hugo.yaml/hugo.json) of your site to make use of this theme’s features.&lt;/p>
 &lt;p>For an example of &lt;code>hugo.toml&lt;/code>, see &lt;a href="https://github.com/thingsym/hugo-theme-techdoc/blob/master/exampleSite/hugo.toml">hugo.toml&lt;/a> in exampleSite.&lt;/p>
 &lt;h2 id="params">Params&lt;/h2>
 &lt;pre>&lt;code># Source Code repository section
@@ -66,7 +66,7 @@ algolia_appId = &amp;quot;7W4SAN4PLK&amp;quot;
 algolia_apiKey = &amp;quot;cbf12a63ff72d9c5dc0c10c195cf9128&amp;quot; # Search-Only API Key
 &lt;/code>&lt;/pre>
 &lt;h4 id="description">&lt;code>description&lt;/code>&lt;/h4>
-&lt;p>The document summary&lt;/p></description></item><item><title>Screenshot</title><link>localhost:1313getting-started/screenshot/</link><pubDate>Sat, 26 Oct 2019 15:26:15 +0000</pubDate><guid>localhost:1313getting-started/screenshot/</guid><description>&lt;h3 id="theme-color">Theme color&lt;/h3>
+&lt;p>The document summary&lt;/p></description></item><item><title>Screenshot</title><link>https://joe0917.github.io/test/getting-started/screenshot/</link><pubDate>Sat, 26 Oct 2019 15:26:15 +0000</pubDate><guid>https://joe0917.github.io/test/getting-started/screenshot/</guid><description>&lt;h3 id="theme-color">Theme color&lt;/h3>
 &lt;p>&lt;img src="https://raw.githubusercontent.com/thingsym/hugo-theme-techdoc/master/images/screenshot-theme-color.png" alt="Theme color">&lt;/p>
 &lt;h3 id="menu-style">Menu style&lt;/h3>
 &lt;h4 id="open-menu">Open Menu&lt;/h4>

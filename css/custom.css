@@ -1,0 +1,17 @@
+/* 修改主题色 */
+:root {
+  --primary: #2c6ecb;
+}
+
+/* 调整代码块样式 */
+.highlight {
+  border-left: 3px solid var(--primary);
+  background-color: #f8f9fa;
+}
+
+/* 提示框样式 */
+.notice {
+  border-left: 4px solid #ffc107;
+  padding: 1rem;
+  background-color: #fff8e1;
+}

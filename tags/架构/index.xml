@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>架构 on Hugo Techdoc Theme</title>
+    <link>//localhost:1313/tags/%E6%9E%B6%E6%9E%84/</link>
+    <description>Recent content in 架构 on Hugo Techdoc Theme</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/%E6%9E%B6%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我们的技术演进之路</title>
+      <link>//localhost:1313/blog/first-post/</link>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/first-post/</guid>
+      <description>回顾过去一年的技术架构升级历程</description>
+    </item>
+  </channel>
+</rss>

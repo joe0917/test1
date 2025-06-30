@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home title on TMEIC体系文件</title><link>localhost:1313</link><description>Recent content in Home title on TMEIC体系文件</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 29 Jun 2025 12:00:02 +0000</lastBuildDate><atom:link href="localhost:1313index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown Syntax</title><link>localhost:1313sample/markdown-syntax/</link><pubDate>Tue, 17 Nov 2020 15:26:15 +0000</pubDate><guid>localhost:1313sample/markdown-syntax/</guid><description>&lt;h2 id="headings">Headings&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span># Heading level 1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## Heading level 2
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">### Heading level 3
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#### Heading level 4
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">##### Heading level 5
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">###### Heading level 6
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="emphasis">Emphasis&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>*Italic* 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="font-weight:bold">**Bold**&lt;/span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">~~Strikethrough~~&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="horizontal-rule">Horizontal Rule&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="lists">Lists&lt;/h2>
+&lt;h3 id="unordered-lists">Unordered Lists&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">-&lt;/span> First item
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">-&lt;/span> Second item
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">-&lt;/span> Third item
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">-&lt;/span> Fourth item
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>or&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">*&lt;/span> First item
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">*&lt;/span> Second item
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">*&lt;/span> Third item
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">*&lt;/span> Fourth item
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="ordered-lists">Ordered Lists&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">1.&lt;/span> First item
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">2.&lt;/span> Second item
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">3.&lt;/span> Third item
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">4.&lt;/span> Fourth item
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="code">Code&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">```ruby
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&lt;/span>puts &lt;span style="color:#e6db74">&amp;#39;The best way to log and share programmers knowledge.&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>puts &lt;span style="color:#e6db74">&amp;#39;The best way to log and share programmers knowledge.&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">```&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="inline-code">Inline code&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">`#ffce44`&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="blockquote">Blockquote&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">&amp;gt; &lt;/span>&lt;span style="font-style:italic">this is a blockquote. this is a blockquote. this is a blockquote. this is a blockquote. this is a blockquote. this is a blockquote.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="font-style:italic">&lt;/span>&lt;span style="color:#66d9ef">&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">&lt;/span>&lt;span style="font-style:italic">&amp;gt; this is a blockquote.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="font-style:italic">&lt;/span>&lt;span style="color:#66d9ef">&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">&lt;/span>&lt;span style="font-style:italic">&amp;gt; this is a blockquote.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="font-style:italic">&lt;/span>&lt;span style="color:#66d9ef">&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">&lt;/span>&lt;span style="font-style:italic">&amp;gt; this is a blockquote
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="links">Links&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#f92672">Hugo Techdoc Theme demo&lt;/span>](&lt;span style="color:#a6e22e">https://themes.gohugo.io/theme/hugo-theme-techdoc/&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="table">Table&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>| header | header | header |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>|------------|-------------|--------------|
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>| Lorem | Lorem | Lorem |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>| ipsum | ipsum | ipsum |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>| dolor | dolor | dolor |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>| sit | sit | sit |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>| amet | amet | amet |
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="images">Images&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>![&lt;span style="color:#f92672">2 People Sitting With View of Yellow Flowers during Daytime&lt;/span>](&lt;span style="color:#a6e22e">../images/pexels-photo-196666.jpeg &amp;#34;sample&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="image-with-link">Image with link&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#f92672">![2 People Sitting With View of Yellow Flowers during Daytime&lt;/span>](&lt;span style="color:#a6e22e">../images/pexels-photo-196666.jpeg&lt;/span>)](https://www.pexels.com/photo/2-people-sitting-with-view-of-yellow-flowers-during-daytime-196666/)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="definition-lists">Definition Lists&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>First Term
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>: This is the definition.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Second Term
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>: This is the definition.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>: This is the definition.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="task-lists">Task Lists&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- [x]&lt;/span> to do task 1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- [ ]&lt;/span> to do task 2
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- [ ]&lt;/span> to do task 3
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="footnotes">Footnotes&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>this is a footnote,[^1] and this is the second footnote.[^2]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[^1]: This is the first footnote.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[^2]: This is the second footnote.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Built-in Shortcodes</title><link>localhost:1313sample/built-in-shortcodes/</link><pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate><guid>localhost:1313sample/built-in-shortcodes/</guid><description>&lt;p>See &lt;a href="https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes">https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&lt;/a>&lt;/p>
+&lt;h2 id="figure">figure&lt;/h2>
+&lt;figure>&lt;img src="../../images/pexels-photo-196666.jpeg">&lt;figcaption>
+ &lt;h4>2 People Sitting With View of Yellow Flowers during Daytime&lt;/h4>
+ &lt;/figcaption>
+&lt;/figure>
+
+&lt;h2 id="highlight">highlight&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">section&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;main&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">div&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">h1&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;title&amp;#34;&lt;/span>&amp;gt;{{ .Title }}&amp;lt;/&lt;span style="color:#f92672">h1&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{ range .Data.Pages }}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{ .Render &amp;#34;summary&amp;#34;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{ end }}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#f92672">div&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">section&lt;/span>&amp;gt;&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h2 id="vimeo">vimeo&lt;/h2>
+
+ &lt;div
+ style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe
+ src="https://player.vimeo.com/video/146022717?dnt=0"
+ style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allow="fullscreen">
+ &lt;/iframe>
+ &lt;/div>
+
+&lt;h2 id="youtube">youtube&lt;/h2>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/w7Ft2ymGmfc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+ &lt;/div></description></item><item><title>Custom Shortcodes</title><link>localhost:1313sample/custom-shortcodes/</link><pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate><guid>localhost:1313sample/custom-shortcodes/</guid><description>&lt;h2 id="code-highlight-with-clipboard">Code highlight with clipboard&lt;/h2>
+&lt;div class="code" id="sample/custom-shortcodes.html">&lt;div class="filename">sample/custom-shortcodes.html&lt;/div>&lt;button class="copy-btn copy" title="Copy this code to your clipboard." data-clipboard-action="copy" aria-label="Copy this code.">&lt;i class="fas fa-clipboard">&lt;/i> Copy&lt;/button>&lt;div class="code-content" >
+			&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>{{&amp;lt; &lt;span style="color:#f92672">highlight&lt;/span> &lt;span style="color:#a6e22e">html&lt;/span> &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">section&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;main&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">div&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">h1&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;title&amp;#34;&lt;/span>&amp;gt;{{ .Title }}&amp;lt;/&lt;span style="color:#f92672">h1&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{ range .Pages }}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{ .Render &amp;#34;summary&amp;#34;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{ end }}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#f92672">div&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">section&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; /&lt;span style="color:#f92672">highlight&lt;/span> &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+	&lt;/div>
+&lt;/div>
+
+&lt;h2 id="alert-panel">Alert panel&lt;/h2>
+&lt;div class="panel panel-primary">&lt;div class="panel-body">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+&lt;/div>
+&lt;/div>
+
+&lt;h3 id="alert-panel-using-html">Alert panel using HTML&lt;/h3>
+&lt;div class="panel panel-primary">&lt;div class="panel-body">
+
+&lt;strong>Lorem ipsum dolor sit amet&lt;/strong>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. &lt;a href="https://github.com/thingsym/hugo-theme-techdoc">Ut enim ad minim veniam&lt;/a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+&lt;strong>Lorem ipsum dolor sit amet&lt;/strong>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. &lt;a href="https://github.com/thingsym/hugo-theme-techdoc">Ut enim ad minim veniam&lt;/a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+&lt;/div>
+&lt;/div>
+
+&lt;h3 id="alert-panel-using-markdown-use-the--character">Alert panel using Markdown (use the &lt;code>%&lt;/code> character)&lt;/h3>
+&lt;div class="panel panel-primary">&lt;div class="panel-header">
+&lt;h3>primary&lt;/h3>
+&lt;/div>&lt;div class="panel-body">
+&lt;p>&lt;a href="https://www.google.com" title="Google's Homepage">I&amp;rsquo;m an inline-style link with title&lt;/a>&lt;/p></description></item><item><title>Installation</title><link>localhost:1313getting-started/installation/</link><pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate><guid>localhost:1313getting-started/installation/</guid><description>&lt;h2 id="install-hugo-theme-on-your-project">Install Hugo theme on your project&lt;/h2>
+&lt;p>If you have git installed, you can include hugo-theme-techdoc repository into your core repository as submodule using &lt;code>git submodule&lt;/code> within your project directory.&lt;/p>
+&lt;pre tabindex="0">&lt;code>cd your_project
+git submodule add https://github.com/thingsym/hugo-theme-techdoc.git themes/hugo-theme-techdoc
+&lt;/code>&lt;/pre>&lt;p>For more information read &lt;a href="https://gohugo.io/getting-started/quick-start/">the Hugo documentation&lt;/a>.&lt;/p>
+&lt;h2 id="or-download-hugo-theme-on-your-project">Or download Hugo theme on your project&lt;/h2>
+&lt;p>If you have git installed, you can do the following at the command-line-interface within your project directory.&lt;/p>
+&lt;pre tabindex="0">&lt;code>cd your_project/themes
+git clone https://github.com/thingsym/hugo-theme-techdoc.git
+&lt;/code>&lt;/pre>&lt;h2 id="configure">Configure&lt;/h2>
+&lt;p>You may specify options in hugo.toml (or hugo.yaml/hugo.json) of your site to make use of this theme&amp;rsquo;s features.&lt;/p></description></item><item><title>Table of Contents</title><link>localhost:1313sample/table-of-contents/</link><pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate><guid>localhost:1313sample/table-of-contents/</guid><description>&lt;div class="panel panel-primary">&lt;div class="panel-header">
+&lt;h3>&lt;i class="far fa-lightbulb">&lt;/i>&amp;nbsp;Note&lt;/h3>
+&lt;/div>&lt;div class="panel-body">
+&lt;p>The &lt;code>TableOfContents&lt;/code> field with &lt;code>true&lt;/code> in your content’s front matter will render a table of contents.&lt;/p>
+&lt;pre tabindex="0">&lt;code>TableOfContents: true
+&lt;/code>&lt;/pre>&lt;p>Setting the built-in .TableOfContents variables can configure what heading levels you want to include in TOC. See &lt;a href="https://gohugo.io/getting-started/configuration-markup/#table-of-contents">the built-in .TableOfContents variables settings&lt;/a>&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="section-1">Section 1&lt;/h2>
+&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p></description></item><item><title>Creating a New Theme</title><link>localhost:1313post/creating-a-new-theme/</link><pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate><guid>localhost:1313post/creating-a-new-theme/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&lt;/p>
+&lt;p>We&amp;rsquo;ll start with creating a new site with a very basic template. Then we&amp;rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.&lt;/p></description></item><item><title>Migrate to Hugo from Jekyll</title><link>localhost:1313post/migrate-from-jekyll/</link><pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate><guid>localhost:1313post/migrate-from-jekyll/</guid><description>&lt;h2 id="move-static-content-to-static">Move static content to &lt;code>static&lt;/code>&lt;/h2>
+&lt;p>Jekyll has a rule that any directory not starting with &lt;code>_&lt;/code> will be copied as-is to the &lt;code>_site&lt;/code> output. Hugo keeps all static content under &lt;code>static&lt;/code>. You should therefore move it all there.
+With Jekyll, something that looked like&lt;/p>
+&lt;pre>&lt;code>▾ &amp;lt;root&amp;gt;/
+ ▾ images/
+ logo.png
+&lt;/code>&lt;/pre>
+&lt;p>should become&lt;/p>
+&lt;pre>&lt;code>▾ &amp;lt;root&amp;gt;/
+ ▾ static/
+ ▾ images/
+ logo.png
+&lt;/code>&lt;/pre>
+&lt;p>Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code>CNAME&lt;/code>) to be moved to &lt;code>static&lt;/code>.&lt;/p></description></item><item><title>Hello world!</title><link>localhost:1313hello_world/</link><pubDate>Tue, 17 Oct 2017 14:00:45 +0000</pubDate><guid>localhost:1313hello_world/</guid><description>&lt;p>Hello world!&lt;/p></description></item><item><title>Hello_world</title><link>localhost:1313posts/hello_world/</link><pubDate>Tue, 17 Oct 2017 14:00:45 +0000</pubDate><guid>localhost:1313posts/hello_world/</guid><description>&lt;p>aaaaaa&lt;/p>
+&lt;p>vvvv&lt;/p>
+&lt;p>aaa&lt;/p></description></item><item><title>Configuration</title><link>localhost:1313getting-started/configuration/</link><pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate><guid>localhost:1313getting-started/configuration/</guid><description>&lt;p>You may specify options in hugo.toml (or hugo.yaml/hugo.json) of your site to make use of this theme’s features.&lt;/p>
+&lt;p>For an example of &lt;code>hugo.toml&lt;/code>, see &lt;a href="https://github.com/thingsym/hugo-theme-techdoc/blob/master/exampleSite/hugo.toml">hugo.toml&lt;/a> in exampleSite.&lt;/p>
+&lt;h2 id="params">Params&lt;/h2>
+&lt;pre>&lt;code># Source Code repository section
+description = &amp;quot;put your description&amp;quot;
+github_repository = &amp;quot;https://github.com/thingsym/hugo-theme-techdoc&amp;quot;
+version = &amp;quot;1.0.2&amp;quot;
+
+# Documentation repository section
+# documentation repository (set edit link to documentation repository)
+github_doc_repository = &amp;quot;https://github.com/thingsym/hugo-theme-techdoc&amp;quot;
+github_doc_repository_branch = &amp;quot;master&amp;quot;
+github_doc_repository_path = &amp;quot;&amp;quot;
+
+# Analytic section
+google_analytics_id = &amp;quot;&amp;quot; # Your Google Analytics tracking id
+tag_manager_container_id = &amp;quot;&amp;quot; # Your Google Tag Manager container id
+google_site_verification = &amp;quot;&amp;quot; # Your Google Site Verification for Search Console
+
+# Open Graph and Twitter Cards settings section
+# Open Graph settings for each page are set on the front matter.
+# See https://gohugo.io/templates/internal/#open-graph
+# See https://gohugo.io/templates/internal/#twitter-cards
+title = &amp;quot;Hugo Techdoc Theme&amp;quot;
+images = [&amp;quot;images/og-image.png&amp;quot;] # Open graph images are placed in `static/images`
+
+# Theme settings section
+# Theme color
+# See color value reference https://developer.mozilla.org/en-US/docs/Web/CSS/color
+custom_font_color = &amp;quot;&amp;quot;
+custom_background_color = &amp;quot;&amp;quot;
+
+# Documentation Menu section
+# Menu style settings
+menu_style = &amp;quot;open-menu&amp;quot; # &amp;quot;open-menu&amp;quot; or &amp;quot;slide-menu&amp;quot; or &amp;quot;&amp;quot; blank is as no sidebar
+
+# Date format
+dateformat = &amp;quot;&amp;quot; # default &amp;quot;2 Jan 2006&amp;quot;
+# See the format reference https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
+
+# path name excluded from documentation menu
+menu_exclusion = [
+ &amp;quot;archives&amp;quot;,
+ &amp;quot;archive&amp;quot;,
+ &amp;quot;blog&amp;quot;,
+ &amp;quot;entry&amp;quot;,
+ &amp;quot;post&amp;quot;,
+ &amp;quot;posts&amp;quot;,
+]
+
+# Algolia site search section
+# See https://www.algolia.com/doc/
+algolia_search_enable = true
+algolia_indexName = &amp;quot;hugo-demo-techdoc&amp;quot;
+algolia_appId = &amp;quot;7W4SAN4PLK&amp;quot;
+algolia_apiKey = &amp;quot;cbf12a63ff72d9c5dc0c10c195cf9128&amp;quot; # Search-Only API Key
+&lt;/code>&lt;/pre>
+&lt;h4 id="description">&lt;code>description&lt;/code>&lt;/h4>
+&lt;p>The document summary&lt;/p></description></item><item><title>Screenshot</title><link>localhost:1313getting-started/screenshot/</link><pubDate>Sat, 26 Oct 2019 15:26:15 +0000</pubDate><guid>localhost:1313getting-started/screenshot/</guid><description>&lt;h3 id="theme-color">Theme color&lt;/h3>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/thingsym/hugo-theme-techdoc/master/images/screenshot-theme-color.png" alt="Theme color">&lt;/p>
+&lt;h3 id="menu-style">Menu style&lt;/h3>
+&lt;h4 id="open-menu">Open Menu&lt;/h4>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/thingsym/hugo-theme-techdoc/master/images/screenshot-open-menu.png" alt="Open Menu">&lt;/p>
+&lt;h4 id="slide-menu">Slide Menu&lt;/h4>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/thingsym/hugo-theme-techdoc/master/images/screenshot-slide-menu.gif" alt="Slide Menu">&lt;/p>
+&lt;h3 id="edit-link">Edit link&lt;/h3>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/thingsym/hugo-theme-techdoc/master/images/screenshot-edit-link.png" alt="Edit link">&lt;/p></description></item><item><title>1. 适用范围</title><link>localhost:13131_manual/1/</link><pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate><guid>localhost:13131_manual/1/</guid><description>&lt;p>本公司的质量、环境、职业健康安全一体化管理体系（以下简称一体化管理体系）适用于公司及各部门的管理，以使公司的服务经营活动及其相关的活动达到顾客和相关方满意并满足相关质量、环境、健康安全法律法规的要求。&lt;/p></description></item><item><title>2. 手册的管理</title><link>localhost:13131_manual/2/</link><pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate><guid>localhost:13131_manual/2/</guid><description>&lt;p>一体化管理体系的管理者代表负责组织相关部门、相关人员编制一体化管理体系文件并督促其实施，{{sys_sec}}负责一体化管理体系文件实施的督导与考核，相关部门负责具体落实。&lt;/p></description></item><item><title>3. 术语、定义和引用</title><link>localhost:13131_manual/3/</link><pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate><guid>localhost:13131_manual/3/</guid><description>&lt;h3 id="31-术语和定义">3.1 术语和定义&lt;/h3>
+&lt;p>公司质量、环境和职业健康安全体系采用ISO9001：2015、ISO14001：2015和ISO45001：2018标准和法规、标准的相关术语和定义。&lt;/p></description></item><item><title>4. 公司的环境</title><link>localhost:13131_manual/4/</link><pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate><guid>localhost:13131_manual/4/</guid><description>&lt;h3 id="41-理解组织及其环境">4.1 理解组织及其环境&lt;/h3>
+&lt;p>4.1.1公司各级负责人应充分理解顾客和国家法规，确定影响公司战略目标和发展方向实现的各种内、外部因素和环境、安全状况。&lt;/p>
+&lt;p>4.1.2外部的因素是国际、国家、地区和本地的法律法规、技术、竞争、市场、文化、社会和经济因素。&lt;/p></description></item><item><title>5. 领导作用与员工参与</title><link>localhost:13131_manual/5/</link><pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate><guid>localhost:13131_manual/5/</guid><description>&lt;h3 id="51领导作用和承诺">5.1领导作用和承诺&lt;/h3>
+&lt;p>5.1.1公司总经理及公司领导层成员通过以下活动对其建立和改进质量、环境和职业健康安全体系的承诺提供证据：&lt;/p>
+&lt;p>a）应向全体员工贯彻和带头执行相关法律法规标准的要求，使全体员工明确企业和自身的质量、环境和职业健康安全的责任和义务，在全体员工中树立良好的质量、环境和安全意识；&lt;/p></description></item><item><title>6. 策划</title><link>localhost:13131_manual/6/</link><pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate><guid>localhost:13131_manual/6/</guid><description>&lt;p>质量、环境和职业健康安全管理体系的策划&lt;/p>
+&lt;h3 id="61--应对风险和机遇的措施">6.1 应对风险和机遇的措施&lt;/h3>
+&lt;p>6.1.1 建立、实施并保持《风险机遇控制程序》，确定公司需要应对的风险和机遇，以便：&lt;/p>
+&lt;pre>&lt;code>a）确保管理体系能够实现其预期结果；
+
+b）增强有利影响；
+
+c）避免和减少不利影响；
+
+d）实现改进。
+&lt;/code>&lt;/pre>
+&lt;p>6.1.2 组织应策划：&lt;/p></description></item><item><title>7. 支持</title><link>localhost:13131_manual/7/</link><pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate><guid>localhost:13131_manual/7/</guid><description>&lt;p>质量、环境和职业健康安全管理体系的支持&lt;/p>
+&lt;h3 id="71--资源">7.1 资源&lt;/h3>
+&lt;p>7.1.1 总则&lt;/p>
+&lt;p>本公司将及时确定并提供以下方面所需的资源：&lt;/p>
+&lt;pre>&lt;code>a）建立、实施、保持和改进质量管理体系的过程；
+
+b）满足顾客要求，增强顾客满意度。
+&lt;/code>&lt;/pre>
+&lt;p>资源主要包括：人力资源、财务资源、基础设施、材料等方面，本公司以人为本。&lt;/p></description></item><item><title>8. 运行控制</title><link>localhost:13131_manual/8/</link><pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate><guid>localhost:13131_manual/8/</guid><description>&lt;p>质量、环境和职业健康安全质量管理体系的运行控制&lt;/p>
+&lt;h3 id="81-运行策划和控制">8.1 运行策划和控制&lt;/h3>
+&lt;h4 id="811-运行策划和控制-qms">8.1.1 运行策划和控制-QMS&lt;/h4>
+&lt;p>为了向顾客提供符合要求及满意的服务等，确保本公司一体化方针和目标的实现，公司规定对所有承接的服务和服务必须进行详细的策划。策划应包括以下的内容：&lt;/p></description></item><item><title>9.监视、测量、分析和评价</title><link>localhost:13131_manual/9/</link><pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate><guid>localhost:13131_manual/9/</guid><description>&lt;h3 id="91--监视测量分析和评价">9.1 监视、测量、分析和评价&lt;/h3>
+&lt;h4 id="911-总则">9.1.1 总则&lt;/h4>
+&lt;p>公司考虑第6章已确定的风险和机遇，从而确定：&lt;/p>
+&lt;p>a)	监视和测量的对象；&lt;/p>
+&lt;p>b)	监视、测量、分析和评价的适当方法，以确保结果有效&lt;/p>
+&lt;p>c)	实施监视和测量的时机；&lt;/p></description></item><item><title>10. 持续改进</title><link>localhost:13131_manual/10/</link><pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate><guid>localhost:13131_manual/10/</guid><description>&lt;h3 id="101-总则">10.1 总则&lt;/h3>
+&lt;p>建立、实施并保持《不符合、纠正预防措施控制程序》确定和选择改进机会，实施必要措施以满足顾客要求和增强顾客满意，实现管理体系预期结果。
+应包括：&lt;/p></description></item><item><title>Chapter 2-1 (weight: 40)</title><link>localhost:13132_procedure/1/</link><pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate><guid>localhost:13132_procedure/1/</guid><description>&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
+&lt;h2 id="标题1">标题1&lt;/h2>
+&lt;h3 id="标题2">标题2&lt;/h3></description></item><item><title>Chapter 2-2 (weight: 30)</title><link>localhost:13132_procedure/2/</link><pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate><guid>localhost:13132_procedure/2/</guid><description>&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p></description></item><item><title>Chapter 2-3 (weight: 10)</title><link>localhost:13132_procedure/3/</link><pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate><guid>localhost:13132_procedure/3/</guid><description>&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p></description></item><item><title>Chapter 2-4 (weight: 20)</title><link>localhost:13132_procedure/4/</link><pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate><guid>localhost:13132_procedure/4/</guid><description>&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p></description></item><item><title>Search Shortcode</title><link>localhost:1313sample/search-shortcode/</link><pubDate>Mon, 30 Mar 2020 18:49:06 +0000</pubDate><guid>localhost:1313sample/search-shortcode/</guid><description>&lt;div class="panel panel-primary">&lt;div class="panel-header">
+&lt;h3>&lt;i class="far fa-lightbulb">&lt;/i>&amp;nbsp;Note&lt;/h3>
+&lt;/div>&lt;div class="panel-body">
+&lt;p>Search Shortcode powered by &lt;a href="https://www.algolia.com/">Algolia&lt;/a>&lt;/p>
+&lt;p>You can create a search page just by adding &lt;code>search&lt;/code> shortcode.&lt;/p>
+&lt;/div>
+&lt;/div>
+
+
+&lt;script src="#ZgotmplZ?v=4.0.0">&lt;/script>
+&lt;script src="#ZgotmplZ?v=4.0.0">&lt;/script>
+&lt;script src="#ZgotmplZ?v=1.11.3">&lt;/script>
+
+&lt;div id="searchbox">&lt;/div>
+&lt;div id="stats">&lt;/div>
+&lt;div id="hits">&lt;/div>
+&lt;div id="pagination">&lt;/div>
+
+&lt;script>
+var search = instantsearch({
+ indexName: 'hugo-demo-techdoc',
+ searchClient: algoliasearch(
+ '7W4SAN4PLK',
+ 'cbf12a63ff72d9c5dc0c10c195cf9128'
+ ),
+ routing: true,
+});
+
+const renderHits = (renderOptions, isFirstRender) => {
+ const { hits } = renderOptions;
+
+ document.querySelector('#hits').innerHTML = `
+ ${hits
+ .map(
+ item =>
+ `&lt;div class="ais-Hits-item">&lt;h3>&lt;a href="${ item.permalink }">${ item.title }&lt;/a>&lt;/h3>&lt;p>&lt;span class="lastmod">${ dayjs(item.lastmod).format("YYYY/MM/DD") }&lt;/span> - ${ item.description ? item.description : item.content.length > 200 ? item.content.substring( 0, 200 ) + '...' : item.content }&lt;/p></description></item><item><title>Hello_world2</title><link>localhost:1313archives/hello_world2/</link><pubDate>Sun, 17 Dec 2017 14:00:45 +0000</pubDate><guid>localhost:1313archives/hello_world2/</guid><description>&lt;p>aaaaaa&lt;/p>
+&lt;p>vvvv&lt;/p>
+&lt;p>aaa&lt;/p></description></item><item><title>Hello_world2</title><link>localhost:1313blog/hello_world2/</link><pubDate>Sun, 17 Dec 2017 14:00:45 +0000</pubDate><guid>localhost:1313blog/hello_world2/</guid><description>&lt;p>aaaaaa&lt;/p>
+&lt;p>vvvv&lt;/p>
+&lt;p>aaa&lt;/p></description></item><item><title>Hello_world2</title><link>localhost:1313entry/hello_world2/</link><pubDate>Sun, 17 Dec 2017 14:00:45 +0000</pubDate><guid>localhost:1313entry/hello_world2/</guid><description>&lt;p>aaaaaa&lt;/p>
+&lt;p>vvvv&lt;/p>
+&lt;p>aaa&lt;/p></description></item><item><title>Hello_world1</title><link>localhost:1313archives/hello_world1/</link><pubDate>Fri, 17 Nov 2017 14:00:45 +0000</pubDate><guid>localhost:1313archives/hello_world1/</guid><description>&lt;p>aaaaaa&lt;/p>
+&lt;p>vvvv&lt;/p>
+&lt;p>aaa&lt;/p></description></item><item><title>Hello_world1</title><link>localhost:1313blog/hello_world1/</link><pubDate>Fri, 17 Nov 2017 14:00:45 +0000</pubDate><guid>localhost:1313blog/hello_world1/</guid><description>&lt;p>aaaaaa&lt;/p>
+&lt;p>vvvv&lt;/p>
+&lt;p>aaa&lt;/p></description></item><item><title>Hello_world1</title><link>localhost:1313entry/hello_world1/</link><pubDate>Fri, 17 Nov 2017 14:00:45 +0000</pubDate><guid>localhost:1313entry/hello_world1/</guid><description>&lt;p>aaaaaa&lt;/p>
+&lt;p>vvvv&lt;/p>
+&lt;p>aaa&lt;/p></description></item><item><title>Chapter 2-0 (weight: no set)</title><link>localhost:13132_procedure/5/</link><pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate><guid>localhost:13132_procedure/5/</guid><description>&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p></description></item><item><title>Chapter 3-2-1</title><link>localhost:1313chapter3/chapter3-2/1/</link><pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate><guid>localhost:1313chapter3/chapter3-2/1/</guid><description>&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p></description></item><item><title>Chapter 3-2-2</title><link>localhost:1313chapter3/chapter3-2/2/</link><pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate><guid>localhost:1313chapter3/chapter3-2/2/</guid><description>&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p></description></item><item><title>Chapter 3-2-3</title><link>localhost:1313chapter3/chapter3-2/3/</link><pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate><guid>localhost:1313chapter3/chapter3-2/3/</guid><description>&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p></description></item><item><title>Chapter 3-2-4</title><link>localhost:1313chapter3/chapter3-2/4/</link><pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate><guid>localhost:1313chapter3/chapter3-2/4/</guid><description>&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p></description></item><item><title>Chapter 3-3</title><link>localhost:1313chapter3/3/</link><pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate><guid>localhost:1313chapter3/3/</guid><description>&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p></description></item><item><title>Chapter 3-4</title><link>localhost:1313chapter3/4/</link><pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate><guid>localhost:1313chapter3/4/</guid><description>&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p></description></item><item><title>表单格式</title><link>localhost:1313chapter3/1/</link><pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate><guid>localhost:1313chapter3/1/</guid><description>&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p></description></item><item><title>Hello_world</title><link>localhost:1313archives/hello_world/</link><pubDate>Tue, 17 Oct 2017 14:00:45 +0000</pubDate><guid>localhost:1313archives/hello_world/</guid><description>&lt;p>aaaaaa&lt;/p>
+&lt;p>vvvv&lt;/p>
+&lt;p>aaa&lt;/p></description></item><item><title>Hello_world</title><link>localhost:1313blog/hello_world/</link><pubDate>Tue, 17 Oct 2017 14:00:45 +0000</pubDate><guid>localhost:1313blog/hello_world/</guid><description>&lt;p>aaaaaa&lt;/p>
+&lt;p>vvvv&lt;/p>
+&lt;p>aaa&lt;/p></description></item><item><title>Hello_world</title><link>localhost:1313entry/hello_world/</link><pubDate>Tue, 17 Oct 2017 14:00:45 +0000</pubDate><guid>localhost:1313entry/hello_world/</guid><description>&lt;p>aaaaaa&lt;/p>
+&lt;p>vvvv&lt;/p>
+&lt;p>aaa&lt;/p></description></item><item><title>About Hugo</title><link>localhost:1313about/</link><pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate><guid>localhost:1313about/</guid><description>&lt;p>Hugo is a static site engine written in Go.&lt;/p>
+&lt;p>It makes use of a variety of open source projects including:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/spf13/cobra">Cobra&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/spf13/viper">Viper&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/spf13/jWalterWeatherman">J Walter Weatherman&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/spf13/cast">Cast&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Learn more and contribute on &lt;a href="https://github.com/gohugoio">GitHub&lt;/a>.&lt;/p></description></item><item><title>(Hu)go Template Primer</title><link>localhost:1313post/goisforlovers/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>localhost:1313post/goisforlovers/</guid><description>&lt;p>Hugo uses the excellent &lt;a href="https://golang.org/">Go&lt;/a> &lt;a href="https://golang.org/pkg/html/template/">html/template&lt;/a> library for
+its template engine. It is an extremely lightweight engine that provides a very
+small amount of logic. In our experience that it is just the right amount of
+logic to be able to create a good static website. If you have used other
+template systems from different languages or frameworks you will find a lot of
+similarities in Go templates.&lt;/p>
+&lt;p>This document is a brief primer on using Go templates. The &lt;a href="https://golang.org/pkg/html/template/">Go docs&lt;/a>
+provide more details.&lt;/p></description></item><item><title>Getting Started with Hugo</title><link>localhost:1313post/hugoisforlovers/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>localhost:1313post/hugoisforlovers/</guid><description>&lt;h2 id="step-1-install-hugo">Step 1. Install Hugo&lt;/h2>
+&lt;p>Go to &lt;a href="https://github.com/spf13/hugo/releases">Hugo releases&lt;/a> and download the
+appropriate version for your OS and architecture.&lt;/p>
+&lt;p>Save it somewhere specific as we will be using it in the next step.&lt;/p>
+&lt;p>More complete instructions are available at &lt;a href="https://gohugo.io/getting-started/installing/">Install Hugo&lt;/a>&lt;/p>
+&lt;h2 id="step-2-build-the-docs">Step 2. Build the Docs&lt;/h2>
+&lt;p>Hugo has its own example site which happens to also be the documentation site
+you are reading right now.&lt;/p>
+&lt;p>Follow the following steps:&lt;/p>
+&lt;ol>
+&lt;li>Clone the &lt;a href="https://github.com/gohugoio/hugo">Hugo repository&lt;/a>&lt;/li>
+&lt;li>Go into the repo&lt;/li>
+&lt;li>Run hugo in server mode and build the docs&lt;/li>
+&lt;li>Open your browser to http://localhost:1313&lt;/li>
+&lt;/ol>
+&lt;p>Corresponding pseudo commands:&lt;/p></description></item></channel></rss>

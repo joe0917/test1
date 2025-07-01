@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sample Document on TMEIC体系文件</title><link>https://joe0917.github.io/test/sample/</link><description>Recent content in Sample Document on TMEIC体系文件</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 17 Nov 2020 15:26:15 +0000</lastBuildDate><atom:link href="https://joe0917.github.io/test/sample/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown Syntax</title><link>https://joe0917.github.io/test/sample/markdown-syntax/</link><pubDate>Tue, 17 Nov 2020 15:26:15 +0000</pubDate><guid>https://joe0917.github.io/test/sample/markdown-syntax/</guid><description>&lt;h2 id="headings">Headings&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sample Document on TMEIC体系文件</title><link>https://joe0917.github.io/test1/sample/</link><description>Recent content in Sample Document on TMEIC体系文件</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 17 Nov 2020 15:26:15 +0000</lastBuildDate><atom:link href="https://joe0917.github.io/test1/sample/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown Syntax</title><link>https://joe0917.github.io/test1/sample/markdown-syntax/</link><pubDate>Tue, 17 Nov 2020 15:26:15 +0000</pubDate><guid>https://joe0917.github.io/test1/sample/markdown-syntax/</guid><description>&lt;h2 id="headings">Headings&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span># Heading level 1
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## Heading level 2
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">### Heading level 3
@@ -72,7 +72,7 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[^1]: This is the first footnote.
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[^2]: This is the second footnote.
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Built-in Shortcodes</title><link>https://joe0917.github.io/test/sample/built-in-shortcodes/</link><pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate><guid>https://joe0917.github.io/test/sample/built-in-shortcodes/</guid><description>&lt;p>See &lt;a href="https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes">https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&lt;/a>&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Built-in Shortcodes</title><link>https://joe0917.github.io/test1/sample/built-in-shortcodes/</link><pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate><guid>https://joe0917.github.io/test1/sample/built-in-shortcodes/</guid><description>&lt;p>See &lt;a href="https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes">https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&lt;/a>&lt;/p>
 &lt;h2 id="figure">figure&lt;/h2>
 &lt;figure>&lt;img src="../../images/pexels-photo-196666.jpeg">&lt;figcaption>
  &lt;h4>2 People Sitting With View of Yellow Flowers during Daytime&lt;/h4>
@@ -101,7 +101,7 @@
 &lt;h2 id="youtube">youtube&lt;/h2>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
  &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/w7Ft2ymGmfc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
- &lt;/div></description></item><item><title>Custom Shortcodes</title><link>https://joe0917.github.io/test/sample/custom-shortcodes/</link><pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate><guid>https://joe0917.github.io/test/sample/custom-shortcodes/</guid><description>&lt;h2 id="code-highlight-with-clipboard">Code highlight with clipboard&lt;/h2>
+ &lt;/div></description></item><item><title>Custom Shortcodes</title><link>https://joe0917.github.io/test1/sample/custom-shortcodes/</link><pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate><guid>https://joe0917.github.io/test1/sample/custom-shortcodes/</guid><description>&lt;h2 id="code-highlight-with-clipboard">Code highlight with clipboard&lt;/h2>
 &lt;div class="code" id="sample/custom-shortcodes.html">&lt;div class="filename">sample/custom-shortcodes.html&lt;/div>&lt;button class="copy-btn copy" title="Copy this code to your clipboard." data-clipboard-action="copy" aria-label="Copy this code.">&lt;i class="fas fa-clipboard">&lt;/i> Copy&lt;/button>&lt;div class="code-content" >
 			&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>{{&amp;lt; &lt;span style="color:#f92672">highlight&lt;/span> &lt;span style="color:#a6e22e">html&lt;/span> &amp;gt;}}
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">section&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;main&amp;#34;&lt;/span>&amp;gt;
@@ -137,7 +137,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 &lt;div class="panel panel-primary">&lt;div class="panel-header">
 &lt;h3>primary&lt;/h3>
 &lt;/div>&lt;div class="panel-body">
-&lt;p>&lt;a href="https://www.google.com" title="Google's Homepage">I&amp;rsquo;m an inline-style link with title&lt;/a>&lt;/p></description></item><item><title>Table of Contents</title><link>https://joe0917.github.io/test/sample/table-of-contents/</link><pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate><guid>https://joe0917.github.io/test/sample/table-of-contents/</guid><description>&lt;div class="panel panel-primary">&lt;div class="panel-header">
+&lt;p>&lt;a href="https://www.google.com" title="Google's Homepage">I&amp;rsquo;m an inline-style link with title&lt;/a>&lt;/p></description></item><item><title>Table of Contents</title><link>https://joe0917.github.io/test1/sample/table-of-contents/</link><pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate><guid>https://joe0917.github.io/test1/sample/table-of-contents/</guid><description>&lt;div class="panel panel-primary">&lt;div class="panel-header">
 &lt;h3>&lt;i class="far fa-lightbulb">&lt;/i>&amp;nbsp;Note&lt;/h3>
 &lt;/div>&lt;div class="panel-body">
 &lt;p>The &lt;code>TableOfContents&lt;/code> field with &lt;code>true&lt;/code> in your content’s front matter will render a table of contents.&lt;/p>
@@ -146,7 +146,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 &lt;/div>
 &lt;/div>
 &lt;h2 id="section-1">Section 1&lt;/h2>
-&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p></description></item><item><title>Search Shortcode</title><link>https://joe0917.github.io/test/sample/search-shortcode/</link><pubDate>Mon, 30 Mar 2020 18:49:06 +0000</pubDate><guid>https://joe0917.github.io/test/sample/search-shortcode/</guid><description>&lt;div class="panel panel-primary">&lt;div class="panel-header">
+&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p></description></item><item><title>Search Shortcode</title><link>https://joe0917.github.io/test1/sample/search-shortcode/</link><pubDate>Mon, 30 Mar 2020 18:49:06 +0000</pubDate><guid>https://joe0917.github.io/test1/sample/search-shortcode/</guid><description>&lt;div class="panel panel-primary">&lt;div class="panel-header">
 &lt;h3>&lt;i class="far fa-lightbulb">&lt;/i>&amp;nbsp;Note&lt;/h3>
 &lt;/div>&lt;div class="panel-body">
 &lt;p>Search Shortcode powered by &lt;a href="https://www.algolia.com/">Algolia&lt;/a>&lt;/p>
@@ -155,9 +155,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 &lt;/div>
 
 
-&lt;script src="https://joe0917.github.io/test/js/algolia/algoliasearch-lite.umd.js?v=4.0.0">&lt;/script>
-&lt;script src="https://joe0917.github.io/test/js/algolia/instantsearch.min.js?v=4.0.0">&lt;/script>
-&lt;script src="https://joe0917.github.io/test/js/dayjs.min.js?v=1.11.3">&lt;/script>
+&lt;script src="https://joe0917.github.io/test1/js/algolia/algoliasearch-lite.umd.js?v=4.0.0">&lt;/script>
+&lt;script src="https://joe0917.github.io/test1/js/algolia/instantsearch.min.js?v=4.0.0">&lt;/script>
+&lt;script src="https://joe0917.github.io/test1/js/dayjs.min.js?v=1.11.3">&lt;/script>
 
 &lt;div id="searchbox">&lt;/div>
 &lt;div id="stats">&lt;/div>

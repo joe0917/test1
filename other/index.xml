@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Others on 提迈克电机工业系统（中国）有限公司 昆山分公司</title><link>https://joe0917.github.io/test1/other/</link><description>Recent content in Others on 提迈克电机工业系统（中国）有限公司 昆山分公司</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 19 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://joe0917.github.io/test1/other/index.xml" rel="self" type="application/rss+xml"/><item><title>ISO证书</title><link>https://joe0917.github.io/test1/other/certificates/</link><pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate><guid>https://joe0917.github.io/test1/other/certificates/</guid><description>&lt;p>&lt;strong>ISO9001&lt;/strong>：&lt;a href="https://joe0917.github.io/test1/Certificates/ISO_9001-CN.pdf">中文&lt;/a> | &lt;a href="https://joe0917.github.io/test1/Certificates/ISO_9001-EN.pdf">English&lt;/a>&lt;/p>
+&lt;p>&lt;strong>ISO14001&lt;/strong>：&lt;a href="https://joe0917.github.io/test1/Certificates/ISO_14001-CN.pdf">中文&lt;/a> | &lt;a href="https://joe0917.github.io/test1/Certificates/ISO_14001-EN.pdf">English&lt;/a>&lt;/p>
+&lt;p>&lt;strong>ISO45001&lt;/strong>：&lt;a href="https://joe0917.github.io/test1/Certificates/ISO_45001-CN.pdf">中文&lt;/a> | &lt;a href="https://joe0917.github.io/test1/Certificates/ISO_45001-EN.pdf">English&lt;/a>&lt;/p></description></item><item><title>Search</title><link>https://joe0917.github.io/test1/other/search/</link><pubDate>Mon, 30 Mar 2020 18:49:06 +0000</pubDate><guid>https://joe0917.github.io/test1/other/search/</guid><description>&lt;div class="panel panel-primary">&lt;div class="panel-header">
+&lt;h3>&lt;i class="far fa-lightbulb">&lt;/i>&amp;nbsp;Note&lt;/h3>
+&lt;/div>&lt;div class="panel-body">
+&lt;p>Search Shortcode powered by &lt;a href="https://www.algolia.com/">Algolia&lt;/a>&lt;/p>
+&lt;/div>
+&lt;/div>
+
+
+&lt;script src="https://joe0917.github.io/test1/js/algolia/algoliasearch-lite.umd.js?v=4.0.0">&lt;/script>
+&lt;script src="https://joe0917.github.io/test1/js/algolia/instantsearch.min.js?v=4.0.0">&lt;/script>
+&lt;script src="https://joe0917.github.io/test1/js/dayjs.min.js?v=1.11.3">&lt;/script>
+
+&lt;div id="searchbox">&lt;/div>
+&lt;div id="stats">&lt;/div>
+&lt;div id="hits">&lt;/div>
+&lt;div id="pagination">&lt;/div>
+
+&lt;script>
+var search = instantsearch({
+ indexName: 'algolia',
+ searchClient: algoliasearch(
+ 'PQTG5MY6VH',
+ 'e3bc96c8b8f64db8d242e74485507e94'
+ ),
+ routing: true,
+});
+
+const renderHits = (renderOptions, isFirstRender) => {
+ const { hits } = renderOptions;
+
+ document.querySelector('#hits').innerHTML = `
+ ${hits
+ .map(
+ item =>
+ `&lt;div class="ais-Hits-item">&lt;h3>&lt;a href="${ item.permalink }">${ item.title }&lt;/a>&lt;/h3>&lt;p>&lt;span class="lastmod">${ dayjs(item.lastmod).format("YYYY/MM/DD") }&lt;/span> - ${ item.description ? item.description : item.content.length > 200 ? item.content.substring( 0, 200 ) + '...' : item.content }&lt;/p>&lt;/div>`
+ )
+ .join('')}
+ `;
+};
+
+const customHits = instantsearch.connectors.connectHits( renderHits );
+
+search.addWidgets([
+ instantsearch.widgets.searchBox({
+ container: '#searchbox',
+ showReset: false,
+ }),
+
+ instantsearch.widgets.stats({
+ container: '#stats',
+ }),
+
+ customHits({
+ container: document.querySelector('#hits'),
+ }),
+
+ instantsearch.widgets.pagination({
+ container: '#pagination',
+ maxPages: 20,
+ })
+]);
+
+search.start();
+
+&lt;/script></description></item></channel></rss>

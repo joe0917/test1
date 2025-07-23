@@ -1,0 +1,10 @@
+.print-btn-container {
+  float: right;
+  margin-top: -3rem; /* 适配TechDoc标题栏 */
+}
+
+.print-button {
+  /* 保持和TechDoc一致的按钮样式 */
+  background: var(--td-sidebar-bg-color);
+  border: 1px solid var(--td-border-color);
+}
